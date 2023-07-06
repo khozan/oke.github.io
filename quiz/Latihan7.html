@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Latihan Materi 1</title>
+<link rel="stylesheet" type="text/css" href="css/jQuizMe.css"/>
+</head>
+<body>
+<div id="quizArea"/>
+
+</body>
+<script type="text/javascript" src = "js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jQuizMe-2.2.1.js"></script>
+<script type="text/javascript">
+$( function($){
+var quiz = {
+multiList: [
+{
+ques: "يُمَارِسُ ..... الرِيَاضَةَ",
+ans: "النَّاسُ",
+ansSel: ["النَّاسْ", "النَّاسِ","النَّاسَ"]
+},
+{
+ques: "يَطْلُبُ ..... التَّرْوِيْحَ",
+ans: "الطُلَّابُ",
+ansSel: ["الطُلَّابْ", " الطُلَّابِ","الطُلَّابَ"]
+},
+{
+ques: "يَشْرَبُ ...... الْمَاءَ",
+ans: "الْمَرِيْضُ",
+ansSel: ["الْمَرِيْضْ ", "الْمَرِيْضِ","الْمَرِيْضَ"]
+},
+{
+ques: "يُفَضِّلُ ...... مِنَ النَّاسِ التَّرْوِيْحَ",
+ans: "كَثِيْرٌ",
+ansSel: ["كَثِيْرةٌ", "كَثِيْرَةً"," كَثِيْرًا"]
+},
+{
+ques: "الطَبِيْبُ الْمَرِيْضَ.....",
+ans: "يَفْحَصُ",
+ansSel: ["أَفْحَصُ", "نَفْحَصُ","تَفْحَصُ"]
+},
+
+
+],
+},
+options = {
+help: "<justify> Jawablah 10 Soal dengan memilih antara jawaban A, B, C atau D !</justify>",
+intro: "Latihan soal pembelajaran Kaidah Bahasa Arab",
+allRandom: true,
+title: "Soal Kaidah Bahasa Arab"
+};
+$("#quizArea").jQuizMe(quiz, options);
+});
+</script>
+</html>
+<justify>

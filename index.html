@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>egaP deltitnU</title>
+<meta name="generator" content="H@CKED">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="default/jquery.mobile.theme-1.4.5.css" rel="stylesheet">
+<link href="default/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet">
+<link href="jquery.mobile.structure-1.4.5.min.css" rel="stylesheet">
+<link href="qawaid_lughah_mobile.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+$(document).on("mobileinit", function()
+{
+   $.mobile.ajaxEnabled = false;
+});
+</script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+<script>
+$(document).on("pagecreate", "#index", function(event)
+{
+   var ListView1Options =
+   {
+      inset: false
+   };
+   $("#ListView1").listview(ListView1Options);
+});
+</script>
+</head>
+<body>
+<div data-role="page" data-theme="a" data-title="egaP deltitnU" id="index">
+<div data-role="panel" id="Panel1_panel" data-position="left" data-display="reveal">
+<ul data-role="listview" id="Panel1" style="margin-top:0px;margin-bottom:0px;margin-bottom:15px;">
+<img src="images/1.png" >
+<li><a href="./index.html">Beranda</a></li>
+</ul>
+</div>
+<div class="ui-content" role="main">
+<a data-role="button" data-icon="bars" data-iconpos="left" href="#Panel1_panel" id="Panel1_button">Kaidah Bahasa Arab</a>
+<hr id="Line1" style="">
+<img src="images/1.png" id="Image1" alt="">
+<div id="LayoutGrid1" class="LayoutGrid1-grid-solo LayoutGrid1-responsive">
+<div class="LayoutGrid1-block-a">
+</div>
+</div>
+<form><input type="text" data-type="search" id="ListView1-filter-input" placeholder="Filter items..."></form>
+<ul data-role="listview" data-inset="true" data-filter="true" data-input="#ListView1-filter-input" id="ListView1">
+<li><a href="./page1.html">Huruf Jar</a></li>
+<li><a href="./page2.html">Isim Dlomir (Kata Ganti)</a></li>
+<li><a href="./page3.html">Mubtada' dan Khabar (Subjek dan Predikat)</a></li>
+<li><a href="./page4.html">Na'at (Sifat)</a></li>
+<li><a href="./page5.html">Kaana Wa Akhwatuha</a></li>
+<li><a href="./page6.html">Inna Wa Akhwatuha</a></li>
+<li><a href="./page7.html">Fi'il dan Fa'il (Kata Kerja dan Subjek)</a></li>
+<li><a href="./page8.html">Maf'ul Bih (Objek)</a></li>
+<li><a href="./page9.html">An Nawasib dan Al Jawazim</a></li>
+<li><a href="./page10.html">Naibul Fa'il (Pengganti Subjek dalam kondisi pasif)</a></li>
+<li><a href="./page11.html">Isim Mausul</a></li>
+<li><a href="./page12.html">'Adad (Jumlah)</a></li>
+<li><a href="./page13.html">Dlorof Zaman dan Dlorof Makan (Ket Waktu dan Tempat)</a></li>
+<li><a href="./page14.html">Idlofah</a></li>
+<li><a href="quiz/Latihan Tes Materi.html">Latihan Tes Materi 1</a></li>
+<li><a href="quiz/Latihan Tes Materi 1.html">Latihan Tes Materi 2</a></li>
+<li><a href="quiz/Latihan Tes Materi 2.html">Latihan Tes Materi 3</a></li>
+
+
+
+</ul>
+</div>
+</div>
+</body>
+</html>

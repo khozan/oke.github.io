@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Latihan Materi 1</title>
+<link rel="stylesheet" type="text/css" href="css/jQuizMe.css"/>
+</head>
+<body>
+<div id="quizArea"/>
+
+</body>
+<script type="text/javascript" src = "js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jQuizMe-2.2.1.js"></script>
+<script type="text/javascript">
+$( function($){
+var quiz = {
+multiList: [
+{
+ques: "مَدْرَسَةٌ ثَانَوِيَّةٌ لَيْلِيَّةٌ فِي الْقَرْيَةِ، فَالْتَحَقَ بِهَا أَحْمَدُ........",
+ans: "فُتِحَتْ",
+ansSel: ["فَتَحَتْ", "فَتَحَ","فَتَحَتْ"]
+},
+{
+ques: "قُرِاَ ..........الْجُرُوْمِيَّةُ بِطَرِيْقَةِ صَرَاغَانْ,",
+ans: "كِتَابُ",
+ansSel: ["كِتَابَ", "  كَاتِبُ","كَاتِبَ"]
+},
+{
+ques: "الْمَكْتَبَةُ ......كُلَّ يَوْمٍ مِنَ السَّاعَةِ الثَّامِنَةِ صَبَاحًا إِلَى السَّاعَةِ الثَّالِثَةِ مَسَاءً",
+ans: "تُفْتَحُ",
+ansSel: ["يَفْتَحُ", "تَفْتَحُ","يُفْتَحُ"]
+},
+{
+ques: "الْقُرْآن إِلَى مُحَمَّد ص م.......",
+ans: "أُنْزِلَ",
+ansSel: ["نَزَلَ", "نُزِلَ"," أَنْزَلَ"]
+},
+{
+ques: "إِذَا قُرِئَ .........الْقُرْآنَ فَاسْتَمِعُوْا لَهُ",
+ans: "المُؤْمِنُوْنَ",
+ansSel: ["المُؤْمِنَانِ", "المُؤْمِنِيْنَ","المُؤْمِنَاتُ"]
+},
+
+
+],
+},
+options = {
+help: "<justify> Jawablah 10 Soal dengan memilih antara jawaban A, B, C atau D !</justify>",
+intro: "Latihan soal pembelajaran Kaidah Bahasa Arab",
+allRandom: true,
+title: "Soal Kaidah Bahasa Arab"
+};
+$("#quizArea").jQuizMe(quiz, options);
+});
+</script>
+</html>
+<justify>

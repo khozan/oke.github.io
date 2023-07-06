@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Latihan Materi 1</title>
+<link rel="stylesheet" type="text/css" href="css/jQuizMe.css"/>
+</head>
+<body>
+<div id="quizArea"/>
+
+</body>
+<script type="text/javascript" src = "js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jQuizMe-2.2.1.js"></script>
+<script type="text/javascript">
+$( function($){
+var quiz = {
+multiList: [
+{
+ques: "مِنْ أَسْمَاءِ الشُّهُوْرِ....السَّنَةِ الهِجْرِيَّةَ هِيَ : مُحَرَّمٌ",
+ans: "فِيْ",
+ansSel: ["بـــِ", "كَا","لِــ"]
+},
+{
+ques: "يَبْتَدِئُ النَّهَارُ ......شُرُوْقِ الشَّمْسِ وَيَنْتَهِيْ عِنْدَ غُرُوْبِهَا تَمَامًا",
+ans: "بـــِ",
+ansSel: ["فِيْ", " مِنْ","إِلَى"]
+},
+{
+ques: "كَانَ طُلاَّبُ الْعِلْمِ فِي الْمَاضِيْ يُسَافِرُوْنَ مِنْ بَلَدٍ ..... بَلَدٍ لِطَلَبِ الْعِلْمِ",
+ans: "إِلَى",
+ansSel: ["بـــِ", "كَا","لِــ"]
+},
+{
+ques: "يَتَوَضَّأُ الْمُسْلِمُ .... الْيَوْمِ خَمْسَ مَرَّاتٍ لِلصَّلاَةِ",
+ans: "فِي",
+ansSel: ["كَا", "مِنْ","إِلَى"]
+},
+{
+ques: "يَهْتَمُّ الْمُسْلِمُ بِنَظَافَةِ ثَوْبِهِ .....مَا يَهْتَمُّ بِنَظَافَةِ جِسْمِهِ",
+ans: "كَ",
+ansSel: ["إِلَى", "مِنْ","لِ"]
+},
+
+
+
+],
+},
+options = {
+help: "<justify> Jawablah 10 Soal dengan memilih antara jawaban A, B, C atau D !</justify>",
+intro: "Latihan soal pembelajaran Kaidah Bahasa Arab",
+allRandom: true,
+title: "Soal Kaidah Bahasa Arab"
+};
+$("#quizArea").jQuizMe(quiz, options);
+});
+</script>
+</html>
+<justify>

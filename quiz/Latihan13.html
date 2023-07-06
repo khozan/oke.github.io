@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Latihan Materi 1</title>
+<link rel="stylesheet" type="text/css" href="css/jQuizMe.css"/>
+</head>
+<body>
+<div id="quizArea"/>
+
+</body>
+<script type="text/javascript" src = "js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jQuizMe-2.2.1.js"></script>
+<script type="text/javascript">
+$( function($){
+var quiz = {
+multiList: [
+{
+ques: "سَيَأْتِيْ عِيْدُ الْفِطْرِ الْمُبَارَكِ .......أَيَّامٍ",
+ans: "بَعْدَ",
+ansSel: ["مِنْ", "حِيْنَ","قَبْلَ"]
+},
+{
+ques: "يَطْلُبُ النَّاسُ التَّرْوِيْحَ ..... عَنَاءِ الْعَمَلِ أَوِ الدِّرَاسَةِ",
+ans: "بَعْدَ",
+ansSel: ["مِنْ", "حِيْنَ","قَبْلَ"]
+},
+{
+ques: "تَذْهَبُ إِلَى الْمَدْرَسَةِ ..........السَّادِسَةَ صَبَاحًا",
+ans: "السَّاعَةَ",
+ansSel: ["السَّاعَاتِ", "السَّاعَةِ","السَّاعَةُ"]
+},
+{
+ques: "أَمَّا ......فَالْمَدَارِسُ وَالْجَامِعَاتُ كَثِيْرَةٌ فِيْ كُلِّ مَدِيْنَةٍ وَقَرْيَةٍ تَقْرِيْبًا",
+ans: "الْيَوْمَ",
+ansSel: ["الْيَوْمْ", "الْيَوْمِ","الْيَوْمُ"]
+},
+{
+ques: "يَتَوَضَّأُ حَسَن لأَدَاءِ عِبَادَاتٍ أُخْرَى، مِثْلِ قِرَاءَةِ الْقُرْآنِ وَالطَّوَافِ ......الْكَعْبَةِ",
+ans: "حَوْلَ",
+ansSel: ["حَوْلٌ", "حَوْلً","حَوْلُ"]
+},
+
+
+],
+},
+options = {
+help: "<justify> Jawablah 10 Soal dengan memilih antara jawaban A, B, C atau D !</justify>",
+intro: "Latihan soal pembelajaran Kaidah Bahasa Arab",
+allRandom: true,
+title: "Soal Kaidah Bahasa Arab"
+};
+$("#quizArea").jQuizMe(quiz, options);
+});
+</script>
+</html>
+<justify>

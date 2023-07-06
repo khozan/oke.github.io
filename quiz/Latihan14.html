@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Latihan Materi 1</title>
+<link rel="stylesheet" type="text/css" href="css/jQuizMe.css"/>
+</head>
+<body>
+<div id="quizArea"/>
+
+</body>
+<script type="text/javascript" src = "js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jQuizMe-2.2.1.js"></script>
+<script type="text/javascript">
+$( function($){
+var quiz = {
+multiList: [
+{
+ques: "نَظَرَ حَسَنٌ بَابَ...... مَفْتُوْحًا",
+ans: "البَيْتِ",
+ansSel: ["البَيْتْ", "البَيْتُ","البَيْتَ"]
+},
+{
+ques: "يَفْتَحُ مُحَمَّدٌ نَافِذَةَ ........ كُلَّ يَوْمٍ",
+ans: "الشَّقَّةِ",
+ansSel: ["الشَّقَّةْ", "الشَّقَّةَ","الشَّقَّةُ"]
+},
+{
+ques: "اِشْتَرَتْ فَاطِمَةُ ..... زُجَاجَةٍ فِي الدُّكَانِ",
+ans: "حِذَاءَ",
+ansSel: ["حِذَاءْ", "حِذَاءُ","حِذَاءِ"]
+},
+{
+ques: "  الْمُحَافَظَةُ عَلَى الصَّلَاةِ ........ الْإِسْتِقَامَةِ",
+ans: "عُنْوَانُ",
+ansSel: ["عُنْوَانْ", "عُنْوَانَ","عُنْوَانِ"]
+},
+{
+ques: "يَشْتَرِي المُعَلِّمُ أدَوَاتَ ....... فِي السُّوْقِ",
+ans: "المَدْرَسَةِ",
+ansSel: ["المَدْرَسَةَ", "المَدْرَسَةُ","المَدْرَسَةْ"]
+},
+
+
+],
+},
+options = {
+help: "<justify> Jawablah 10 Soal dengan memilih antara jawaban A, B, C atau D !</justify>",
+intro: "Latihan soal pembelajaran Kaidah Bahasa Arab",
+allRandom: true,
+title: "Soal Kaidah Bahasa Arab"
+};
+$("#quizArea").jQuizMe(quiz, options);
+});
+</script>
+</html>
+<justify>

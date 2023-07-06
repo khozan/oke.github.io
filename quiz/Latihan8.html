@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Latihan Materi 1</title>
+<link rel="stylesheet" type="text/css" href="css/jQuizMe.css"/>
+</head>
+<body>
+<div id="quizArea"/>
+
+</body>
+<script type="text/javascript" src = "js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jQuizMe-2.2.1.js"></script>
+<script type="text/javascript">
+$( function($){
+var quiz = {
+multiList: [
+{
+ques: "حَثَّ الإِسْلاَمُ ......عَلَى نَظَافَةِ جَسَدِهِ وَمَلْبَسِهِ وَمَسْكَنِهِ",
+ans: "الْمُسْلِمِيْنَ",
+ansSel: ["الْمُسْلِمُوْنَ", "الْمُسْلِمِ","الْمُسْلِمُ"]
+},
+{
+ques: "الإِنْسَانُ يَمْشُطُ .....كُلَّ يَوْمٍ بِالْمُشْطِ",
+ans: "شَعْرَهُ",
+ansSel: ["شَعْرَهَا", " شَعْرِهِ","شَعْرُهُ"]
+},
+{
+ques: "الإِنْسَانُ يَضَعُ ...... عَلَى الأَرْضِ وَقْتَ السُّجُوْدِ",
+ans: "جَبْهَتَهُ",
+ansSel: ["جَبْهَتِهَا", "جَبْهَتِهُ","جَبْهَتُهُ"]
+},
+{
+ques: "يَطْلُبُ النَّاسُ ...... بَعْدَ عَنَاءِ الْعَمَلِ أَوِ الدِّرَاسَةِ",
+ans: "التَّرْوِيْحَ",
+ansSel: ["التَّرْوِيْحْ", "التَّرْوِيْحِ"," التَّرْوِيْحُ"]
+},
+{
+ques: "عَلِّمُوْا .......السِّبَاحَةَ وَالرِّمَايَةَ وَرُكُوْبَ الْخَيْلِ",
+ans: "أَوْلاَدَكُمْ",
+ansSel: ["أَوْلاَدِكُمْ", "أَوْلاَدُكُمْ","أَوْلاَدِكُمْ"]
+},
+
+
+],
+},
+options = {
+help: "<justify> Jawablah 10 Soal dengan memilih antara jawaban A, B, C atau D !</justify>",
+intro: "Latihan soal pembelajaran Kaidah Bahasa Arab",
+allRandom: true,
+title: "Soal Kaidah Bahasa Arab"
+};
+$("#quizArea").jQuizMe(quiz, options);
+});
+</script>
+</html>
+<justify>

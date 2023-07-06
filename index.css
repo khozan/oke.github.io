@@ -1,0 +1,95 @@
+#index
+{
+   text-align: center;
+}
+body
+{
+   background-color: #FF0000;
+}
+#Line1
+{
+   color: #A0A0A0;
+   background-color: #A0A0A0;
+   border-width: 0;
+   height: 5px;
+   vertical-align: top;
+   margin: 5px 0px 5px 0px;
+   padding: 0;
+}
+#Image1
+{
+   border-width: 0;
+   display: inline-block;
+   width: 168px;
+   height: 166px;
+   vertical-align: top;
+}
+.LayoutGrid1-grid-a, .LayoutGrid1-grid-b, .LayoutGrid1-grid-c, .LayoutGrid1-grid-d, .LayoutGrid1-grid-solo
+{
+   overflow: hidden;
+}
+.LayoutGrid1-block-a, .LayoutGrid1-block-b, .LayoutGrid1-block-c, .LayoutGrid1-block-d, .LayoutGrid1-block-e
+{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   float: left;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+.LayoutGrid1-block-a
+{
+   clear: left;
+}
+ul.LayoutGrid1-grid-a, ul.LayoutGrid1-grid-b, ul.LayoutGrid1-grid-c, ul.LayoutGrid1-grid-d, ul.LayoutGrid1-grid-solo, li.LayoutGrid1-block-a, li.LayoutGrid1-block-b, li.LayoutGrid1-block-c, li.LayoutGrid1-block-d, li.LayoutGrid1-block-e 
+{
+   margin-left: 0;
+   margin-right: 0;
+   padding: 0;
+   list-style: none;
+}
+.LayoutGrid1-grid-a > .LayoutGrid1-block-a, .LayoutGrid1-grid-a > .LayoutGrid1-block-b 
+{
+   width: 50%;
+}
+.LayoutGrid1-grid-b > .LayoutGrid1-block-a, .LayoutGrid1-grid-b > .LayoutGrid1-block-b, .LayoutGrid1-grid-b > .LayoutGrid1-block-c 
+{
+   width: 33.333%;
+}
+.LayoutGrid1-grid-c > .LayoutGrid1-block-a, .LayoutGrid1-grid-c > .LayoutGrid1-block-b, .LayoutGrid1-grid-c > .LayoutGrid1-block-c, .LayoutGrid1-grid-c > .LayoutGrid1-block-d 
+{
+   width: 25%;
+}
+.LayoutGrid1-grid-d > .LayoutGrid1-block-a, .LayoutGrid1-grid-d > .LayoutGrid1-block-b, .LayoutGrid1-grid-d > .LayoutGrid1-block-c, .LayoutGrid1-grid-d > .LayoutGrid1-block-d, .LayoutGrid1-grid-d > .LayoutGrid1-block-e 
+{
+   width: 20%;
+}
+.LayoutGrid1-grid-solo > .LayoutGrid1-block-a 
+{
+   width: 100%;
+   float: none; 
+}
+.LayoutGrid1-block-a
+{
+   text-align: left;
+}
+@media (max-width: 320px) 
+{
+   .LayoutGrid1-responsive > .LayoutGrid1-block-a,
+   .LayoutGrid1-responsive > .LayoutGrid1-block-b,
+   .LayoutGrid1-responsive > .LayoutGrid1-block-c,
+   .LayoutGrid1-responsive > .LayoutGrid1-block-d,
+   .LayoutGrid1-responsive > .LayoutGrid1-block-e 
+   {
+      width: 100%;
+      float: none;
+   }
+}
+#ListView1 li img
+{
+   height: 80px;
+   width: 80px;
+   padding: 0px;
+}
